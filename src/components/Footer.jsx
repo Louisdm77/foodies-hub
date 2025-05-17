@@ -81,7 +81,7 @@ export default function Footer() {
           animate="visible"
           className="text-neutral-200 font-sans text-sm"
         >
-          © 2025 Foodie Haven. All rights reserved.
+          © 2025 Foodie Haven. All rights reserved. <br/>  Creator: Akwaji Dan
         </motion.p>
       </div>
     </footer>

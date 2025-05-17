@@ -14,7 +14,7 @@ export default function FoodCard({ food }) {
         src={food.image}
         alt={food.name}
         className="w-full h-48 object-cover"
-        loading="lazy"
+        // loading="lazy"
       />
       <div className="p-4 flex flex-col flex-grow">
         <h3 className="text-lg font-semibold text-orange-300 mb-1">

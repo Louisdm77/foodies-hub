@@ -84,7 +84,7 @@ export default function TestimonialsSection() {
                     src={testimonial.image}
                     alt={testimonial.name}
                     className="w-full h-full rounded-full object-cover border-2 border-amber-500/50"
-                    loading="lazy"
+                    // loading="lazy"
                     onError={(e) => {
                       console.error(
                         `Failed to load image for ${testimonial.name}: ${testimonial.image}`

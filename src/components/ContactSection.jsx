@@ -72,7 +72,7 @@ export default function ContactSection() {
               src="https://images.unsplash.com/photo-1516685018648-6ce0b262b668"
               alt="Foodie Haven Storefront"
               className="mt-4 w-full h-48 object-cover rounded-lg border-2 border-amber-500/50"
-              loading="lazy"
+              // loading="lazy"
               onError={(e) => {
                 console.error("Failed to load storefront image");
                 e.target.src = "https://images.unsplash.com/photo-1550547660-d9450f859349";

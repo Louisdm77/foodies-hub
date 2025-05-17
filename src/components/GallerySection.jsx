@@ -70,7 +70,7 @@ export default function GallerySection() {
                   src={item.image}
                   alt={item.caption}
                   className="w-full h-64 object-cover rounded-lg border-2 border-amber-500/50"
-                  loading="lazy"
+                  // loading="lazy"
                   onError={(e) => {
                     console.error(`Failed to load image: ${item.image}`);
                     e.target.src =
