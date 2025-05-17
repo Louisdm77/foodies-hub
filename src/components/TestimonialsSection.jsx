@@ -97,7 +97,7 @@ export default function TestimonialsSection() {
                 <p className="text-neutral-900 italic text-lg font-sans font-medium mb-4 text-center">
                   "{testimonial.quote}"
                 </p>
-                <h4 className="text-neutral-100 font-bold font-sans text-lg">
+                <h4 className="text-blue-500 font-bold font-sans text-lg">
                   {testimonial.name}
                 </h4>
                 <p className="text-amber-400 text-sm mt-2">

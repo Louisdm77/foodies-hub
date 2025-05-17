@@ -1,3 +1,32 @@
+import test1 from "../assets/images/test1.jpeg";
+import test2 from "../assets/images/test2.jpeg";
+import test3 from "../assets/images/test3.jpeg";
+import test4 from "../assets/images/test4.jpeg";
+import burgerbonanza from "../assets/images/burgerbonanza.jpeg";
+import pizzaparty from "../assets/images/pizzaparty.jpeg";
+import choc from "../assets/images/choccake.jpeg";
+import cozy from "../assets/images/cozydining.jpeg";
+import gourmet from "../assets/images/gourmetburger.jpeg";
+import healthy from "../assets/images/healthy.jpeg";
+import vibrant from "../assets/images/vibrantdining.jpeg";
+import mike from "../assets/images/mike.jpg";
+import anna from "../assets/images/anna.jpg";
+import jalapeno from "../assets/images/jalapeno.jpeg";
+import burger from "../assets/images/burger.png";
+import magherita from "../assets/images/margherita.jpeg";
+import pepperoni from "../assets/images/pepperoni.jpeg";
+import cheese from "../assets/images/cheese.jpeg";
+import cofee from "../assets/images/cofee.jpeg";
+import ice from "../assets/images/ice.jpeg";
+import lemonade from "../assets/images/lemonade.jpeg";
+import mozarella from "../assets/images/mozarella.jpg";
+import bread from "../assets/images/bread.jpg";
+import bbq from "../assets/images/bbq.jpeg";
+import veggie from "../assets/images/veggie.jpeg";
+import smooth from "../assets/images/smooth.jpeg"
+import fries from "../assets/images/fries.jpeg"
+import onion from "../assets/images/onion.jpg"
+
 export const categories = [
   {
     id: 1,
@@ -7,8 +36,7 @@ export const categories = [
         id: 101,
         name: "Classic Burger",
         price: 8.99,
-        image:
-          "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg",
+        image: burgerbonanza,
         description:
           "Juicy beef patty with lettuce, tomato, and our secret sauce.",
       },
@@ -16,16 +44,14 @@ export const categories = [
         id: 102,
         name: "Cheese Burger",
         price: 9.99,
-        image:
-          "https://images.pexels.com/photos/1251198/pexels-photo-1251198.jpeg",
+        image: choc,
         description: "Melted cheddar cheese and grilled beef in a soft bun.",
       },
       {
         id: 103,
         name: "Spicy Jalapeño Burger",
         price: 10.49,
-        image:
-          "https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg",
+        image: jalapeno,
         description:
           "Kick it up a notch with jalapeños, pepper jack, and chipotle mayo.",
       },
@@ -33,8 +59,7 @@ export const categories = [
         id: 104,
         name: "Veggie Burger",
         price: 7.99,
-        image:
-          "https://i.pinimg.com/736x/38/29/ef/3829efb8db6860d2cc142a1c9bc34073.jpg",
+        image: burger,
         description:
           "A grilled plant-based burger packed with garden-fresh veggies.",
       },
@@ -48,8 +73,7 @@ export const categories = [
         id: 201,
         name: "Margherita",
         price: 12.99,
-        image:
-          "https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg",
+        image: magherita,
         description:
           "Classic Italian with mozzarella, basil, and tomato sauce.",
       },
@@ -57,8 +81,7 @@ export const categories = [
         id: 202,
         name: "Pepperoni",
         price: 13.99,
-        image:
-          "https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg",
+        image: pepperoni,
         description:
           "Bold pepperoni layered with mozzarella on a crispy crust.",
       },
@@ -66,8 +89,7 @@ export const categories = [
         id: 203,
         name: "BBQ Chicken",
         price: 15.49,
-        image:
-          "https://images.pexels.com/photos/845811/pexels-photo-845811.jpeg",
+        image: bbq,
         description:
           "Sweet BBQ sauce with grilled chicken, red onions, and cheese.",
       },
@@ -75,8 +97,7 @@ export const categories = [
         id: 204,
         name: "Veggie Supreme",
         price: 13.49,
-        image:
-          "https://images.pexels.com/photos/367915/pexels-photo-367915.jpeg",
+        image: veggie,
         description:
           "Mushrooms, olives, bell peppers, and spinach on a cheesy base.",
       },
@@ -90,32 +111,28 @@ export const categories = [
         id: 301,
         name: "Chocolate Cake",
         price: 5.99,
-        image:
-          "https://images.pexels.com/photos/206959/pexels-photo-206959.jpeg",
+        image: choc,
         description: "Rich chocolate cake with a smooth ganache frosting.",
       },
       {
         id: 302,
         name: "Cheesecake",
         price: 6.49,
-        image:
-          "https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg",
+        image: cheese,
         description: "Classic cheesecake topped with fresh strawberry glaze.",
       },
       {
         id: 303,
         name: "Ice Cream Sundae",
         price: 3.99,
-        image:
-          "https://images.pexels.com/photos/1343504/pexels-photo-1343504.jpeg",
+        image: ice,
         description: "Vanilla ice cream with chocolate syrup and nuts.",
       },
       {
         id: 304,
         name: "Tiramisu",
         price: 6.99,
-        image:
-          "https://images.pexels.com/photos/2144200/pexels-photo-2144200.jpeg",
+        image: mozarella,
         description: "Layered Italian dessert with espresso and mascarpone.",
       },
     ],
@@ -129,15 +146,14 @@ export const categories = [
         name: "Coca-Cola",
         price: 1.99,
         image:
-          "https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg",
+          choc,
         description: "Ice-cold Coca-Cola served fresh and fizzy.",
       },
       {
         id: 402,
         name: "Lemonade",
         price: 2.49,
-        image:
-          "https://images.pexels.com/photos/2109099/pexels-photo-2109099.jpeg",
+        image: lemonade,
         description: "Refreshing lemonade with real lemon and mint.",
       },
       {
@@ -145,7 +161,7 @@ export const categories = [
         name: "Iced Coffee",
         price: 2.99,
         image:
-          "https://images.pexels.com/photos/312420/pexels-photo-312420.jpeg",
+          cofee,
         description: "Smooth cold brew with milk and ice.",
       },
       {
@@ -153,7 +169,7 @@ export const categories = [
         name: "Berry Smoothie",
         price: 3.49,
         image:
-          "https://images.pexels.com/photos/775032/pexels-photo-775032.jpeg",
+          smooth,
         description: "Mixed berries blended with yogurt and honey.",
       },
     ],
@@ -167,7 +183,7 @@ export const categories = [
         name: "French Fries",
         price: 2.99,
         image:
-          "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg",
+          fries,
         description: "Crispy golden fries seasoned with sea salt.",
       },
       {
@@ -175,7 +191,7 @@ export const categories = [
         name: "Onion Rings",
         price: 3.49,
         image:
-          "https://i.pinimg.com/736x/bc/94/ca/bc94ca49be7dd4c5f17329f1b119857c.jpg",
+          onion,
         description:
           "Battered and fried onion rings served with dipping sauce.",
       },
@@ -184,7 +200,7 @@ export const categories = [
         name: "Mozzarella Sticks",
         price: 4.29,
         image:
-          "https://i.pinimg.com/736x/43/e5/45/43e545d16cd881f4c2d6bd3bd1275df6.jpg",
+          mozarella,
         description: "Golden mozzarella sticks with marinara sauce.",
       },
       {
@@ -192,7 +208,7 @@ export const categories = [
         name: "Garlic Bread",
         price: 2.49,
         image:
-          "https://i.pinimg.com/736x/c4/9e/49/c49e49dd99c70a5d46bcd3f108c485af.jpg",
+         bread,
         description: "Buttery, crispy garlic bread served warm.",
       },
     ],
@@ -203,8 +219,7 @@ export const chefs = [
     id: 1,
     name: "Chef Anna",
     role: "Head Chef",
-    image:
-      "https://i.pinimg.com/736x/f3/30/3c/f3303c152f1445a618b5daf6a2d58986.jpg",
+    image: anna,
     bio: "Anna brings 15 years of culinary expertise, blending classic and innovative flavors to delight every palate.",
   },
   {
@@ -212,8 +227,7 @@ export const chefs = [
     name: "Chef Mike",
     role: "Pastry Chef",
     imageKilled: "Chef Mike",
-    image:
-      "https://i.pinimg.com/736x/63/a8/fb/63a8fbd27327b2957716ce63aa1316da.jpg",
+    image: mike,
     bio: "Mike’s desserts are a work of art, crafted with precision and a passion for sweetness.",
   },
 ];
@@ -223,23 +237,23 @@ export const testimonials = [
     id: 1,
     name: "Sarah L.",
     quote:
-      "Foodie Haven is my go-to spot! The burgers are juicy, and the service is top-notch.",
+      "Foodie Hub is my  spot! The burgers are juicy, and the service is top-notch.",
     rating: 5,
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330", // Female profile, warm tones
+    image: test1,
   },
   {
     id: 2,
     name: "John D.",
     quote: "The pizzas here are unreal. I can’t get enough of the pepperoni!",
     rating: 4,
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e", // Male profile, neutral tones
+    image: test2,
   },
   {
     id: 3,
     name: "Emily R.",
     quote: "The chocolate cake is to die for. Best dessert I’ve ever had!",
     rating: 5,
-    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f", // Female profile, vibrant
+    image: test3,
   },
   {
     id: 4,
@@ -247,7 +261,7 @@ export const testimonials = [
     quote:
       "An incredible dining experience! The ambiance and flavors are unmatched.",
     rating: 5,
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d", // Male profile, professional
+    image: test4,
   },
 ];
 
@@ -278,14 +292,14 @@ export const offers = [
     title: "Burger Bonanza",
     description:
       "Get 20% off any gourmet burger when you order this week. Don’t miss out!",
-    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd", // Burger
+    image: burgerbonanza,
   },
   {
     id: 2,
     title: "Pizza Party",
     description:
       "Buy one wood-fired pizza, get a second at half price. Perfect for sharing!",
-    image: "https://images.unsplash.com/photo-1513106580091-1d82408b8cd6", // Pizza
+    image: pizzaparty,
   },
   //   {
   //     id: 3,
@@ -298,32 +312,32 @@ export const offers = [
 export const gallery = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+    image: cozy,
     caption: "Our cozy dining room",
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+    image: gourmet,
     caption: "Gourmet burger perfection",
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1513106580091-1d82408b8cd6",
+    image: vibrant,
     caption: "Hall crafted with your convenience in mind",
   },
   {
     id: 4,
-    image: "https://images.unsplash.com/photo-1551024506-0b0b47d2c4a4",
+    image: choc,
     caption: "Decadent chocolate cake",
   },
   {
     id: 5,
-    image: "https://images.unsplash.com/photo-1552566626-52f8b828add9",
+    image: vibrant,
     caption: "Vibrant dining atmosphere",
   },
   {
     id: 6,
-    image: "https://images.unsplash.com/photo-1624727828489-a1e03b79bba8",
+    image: healthy,
     caption: "Healthy foods made with love",
   },
 ];

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import cozydining from "../assets/images/cozydining.jpeg";
 
 export default function AboutSection() {
   // Animation variants for smooth reveal
@@ -56,7 +57,7 @@ export default function AboutSection() {
             transition={{ duration: 0.5 }}
           >
             <img
-              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+              src={cozydining}
               alt="Foodie Haven Restaurant"
               className="w-full h-full object-cover"
               onError={(e) => {
